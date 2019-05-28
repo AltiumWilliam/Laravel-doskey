@@ -4,6 +4,8 @@ doskey cl=cls
 doskey ww=cd \inetpub\wwwroot\$*
 doskey ls=dir /w /ogn /p
 doskey ll=dir /a /ogn /p
+doskey cp=copy $*
+doskey mv=move $*
 
 doskey pa=php artisan $*
 doskey pat=php artisan tinker

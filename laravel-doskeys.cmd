@@ -35,4 +35,4 @@ doskey nrw=npm run watch
 doskey nrp=npm run prod
 doskey nrh=npm run hot
 
-PROMPT  $E[41m$P$G$E[0m 
+PROMPT  $E[31m$P$G$E[0m

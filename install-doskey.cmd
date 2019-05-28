@@ -1,1 +1,1 @@
-REG ADD "HKCU\Software\Microsoft\Command Processor" /v Autorun /d <<Full Path of Doskey File>>
+REG ADD "HKCU\Software\Microsoft\Command Processor" /v Autorun /d <<Full Path of Doskey File Ex: "c:\laravel-doskeys.cmd">>

@@ -36,7 +36,7 @@ doskey nrp=npm run prod
 doskey nrh=npm run hot
 ```
 # Installation
-1. clone repository
+1. clone or download repository
 2. open install-doskeys.cmd and change the full path part.
 3. run install-doskeys.cmd
 4. enjoy it :)

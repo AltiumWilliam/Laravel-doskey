@@ -9,12 +9,9 @@ doskey mv=move $*
 
 doskey pa=php artisan $*
 doskey pat=php artisan tinker
-doskey pam=php artisan migrate$*
-doskey pamf=php artisan migrate:fresh
-doskey pamr=php artisan migrate:rollback
-doskey pama=php artisan migrate --path=database/migrations/active
-doskey pamfa=php artisan migrate:fresh --path=database/migrations/active
-doskey pamra=php artisan migrate:rollback --path=database/migrations/active
+doskey pam=php artisan migrate --path=database/migrations/$*
+doskey pamf=php artisan migrate:fresh --path=database/migrations/$*
+doskey pamr=php artisan migrate:rollback --path=database/migrations/$*
 doskey par=php artisan route:list -c
 doskey parl=php artisan route:list $*
 

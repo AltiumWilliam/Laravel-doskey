@@ -19,6 +19,7 @@ doskey pavp=php artisan vendor:publish $*
 doskey pas=php artisan serve
 
 doskey cu=composer update
+doskey cu=composer selfupdate
 doskey ci=composer install
 doskey cda=composer dump-autoload
 doskey cdao=composer dump-autoload -o
@@ -28,6 +29,7 @@ doskey crd=composer require --dev $*
 doskey ni=npm install $*
 doskey nis=npm install -save-dev $*
 doskey nu=npm update
+doskey nsu=npm install -g npm@latest
 doskey nr=npm run $*
 doskey nrd=npm run dev
 doskey nrw=npm run watch

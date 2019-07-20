@@ -9,9 +9,16 @@ doskey mv=move $*
 
 doskey pa=php artisan $*
 doskey pat=php artisan tinker
-doskey pam=php artisan migrate --path=database/migrations/$*
-doskey pamf=php artisan migrate:fresh --path=database/migrations/$*
-doskey pamr=php artisan migrate:rollback --path=database/migrations/$*
+doskey padbs=php artisan db:seed $*
+doskey padbsc=php artisan db:seed --class=$*
+doskey pam=php artisan migrate $*
+doskey pamp=php artisan migrate --path=database/migrations/$*
+doskey pamf=php artisan migrate:fresh $*
+doskey pamfp=php artisan migrate:fresh --path=database/migrations/$*
+doskey pamr=php artisan migrate:rollback $*
+doskey pamrp=php artisan migrate:rollback --path=database/migrations/$*
+doskey pamrr=php artisan migrate:refresh $*
+doskey pamrrp=php artisan migrate:refresh --path=database/migrations/$*
 doskey par=php artisan route:list -c
 doskey parl=php artisan route:list $*
 
@@ -19,7 +26,7 @@ doskey pavp=php artisan vendor:publish $*
 doskey pas=php artisan serve
 
 doskey cu=composer update
-doskey cu=composer selfupdate
+doskey csu=composer selfupdate
 doskey ci=composer install
 doskey cda=composer dump-autoload
 doskey cdao=composer dump-autoload -o
@@ -35,5 +42,6 @@ doskey nrd=npm run dev
 doskey nrw=npm run watch
 doskey nrp=npm run prod
 doskey nrh=npm run hot
+doskey naf=npm audit fix
 
 PROMPT  $E[31m$P$G$E[0m

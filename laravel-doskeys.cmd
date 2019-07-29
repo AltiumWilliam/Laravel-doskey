@@ -19,11 +19,12 @@ doskey pamr=php artisan migrate:rollback $*
 doskey pamrp=php artisan migrate:rollback --path=database/migrations/$*
 doskey pamrr=php artisan migrate:refresh $*
 doskey pamrrp=php artisan migrate:refresh --path=database/migrations/$*
-doskey par=php artisan route:list --columns method,uri,name,action
-doskey parc=php artisan route:list -c
-doskey para=php artisan route:list --columns method,uri,name,action
-doskey parm=php artisan route:list --columns method,uri,name,middleware
-doskey parl=php artisan route:list $*
+
+doskey par=php artisan route:list --columns method,uri,name,action --path $*
+doskey parc=php artisan route:list -c  --path $*
+doskey para=php artisan route:list --columns method,uri,name,action  --path $*
+doskey parm=php artisan route:list --columns method,uri,name,middleware  --path $*
+doskey parl=php artisan route:list $*  --path $*
 
 doskey pavp=php artisan vendor:publish $*
 doskey pas=php artisan serve

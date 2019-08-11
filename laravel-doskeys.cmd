@@ -26,6 +26,14 @@ doskey para=php artisan route:list --columns method,uri,name,action  --path $*
 doskey parm=php artisan route:list --columns method,uri,name,middleware  --path $*
 doskey parl=php artisan route:list $*  --path $*
 
+doskey paqw=php artisan queue:work $*
+doskey paqr= php artisan queue:restart $*
+
+doskey pabc=php artisan backup:clean $*
+doskey pabr=php artisan backup:run $*
+doskey pabl=php artisan backup:list $*
+doskey pabm=php artisan backup:monitor $*
+
 doskey pavp=php artisan vendor:publish $*
 doskey pas=php artisan serve
 
